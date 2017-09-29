@@ -42,12 +42,10 @@ void display(){
 
 	printf("\n");
 
-	while(temp->previous != NULL){
+	while(temp != NULL){
 		printf("\t[%d]\n", temp->data);
 		temp = temp->previous;
 	}
-
-	printf("\t[%d]\n", temp->data);
 }
 
 bool clear(){
