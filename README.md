@@ -14,7 +14,7 @@ This is a linked-list implementation of a Stack. Basically, a stack is a linear 
 ## How to Run?
 
 ```
-gcc -o queue queue.c
-chmod +r queue
-./queue
+gcc -o stack stack.c
+chmod +r stack
+./stack
 ```
